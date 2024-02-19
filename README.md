@@ -14,12 +14,11 @@ Although you and your partner will divide the work, it’s essential to collabor
 ## Create the Campaign DataFrame
 
 
-
-## Create the Contacts DataFrame
-
-
-
 ## Create the Crowdfunding Database
+
+Database Schema
+
+![Database Schema Diagram](Resources/schema-export.png "Database Schema Diagram")
 
 
 

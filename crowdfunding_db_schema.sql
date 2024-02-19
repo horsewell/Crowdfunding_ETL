@@ -1,5 +1,3 @@
-CREATE DATABASE crowdfunding_db;
-
 -- drop tables if exist
 
 drop table if exists contacts;
@@ -56,14 +54,8 @@ CREATE TABLE campaign (
 	foreign key (subcategory_id) references subcategory(subcategory_id)
 );
 
--- test 
+-- test each database
 select * from contacts;
 select * from category;
 select * from subcategory;
 select * from campaign;
-
--- test joins
-select * from campaign
-left join contacts on campaign.contact_id = contacts.contact_id
-left join category on campaign.category_id = category.category_id
-left join subcategory on campaign.subcategory_id = subcategory.subcategory_id;
